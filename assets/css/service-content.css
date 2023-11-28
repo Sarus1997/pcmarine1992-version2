@@ -1,0 +1,45 @@
+/* For mobile devices */
+@media (max-width: 992px) {
+    .service-content {
+        display: block;
+    }
+
+    .service-content .left,
+    .service-content .right {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .service-content .left img {
+        width: 70%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+        border-radius: 4px; /* Can be adjusted */
+    }
+}
+
+/* For tablets and larger devices */
+@media (min-width: 992px) {
+    .service-content {
+        display: flex;
+        align-items: center;
+    }
+
+    .service-content .left {
+        width: 80%;
+        margin-right: 10px;
+        position: relative;
+    }
+
+    .service-content .left img {
+        width: 100%;
+        height: auto;
+        border-radius: 4px; /* Can be adjusted */
+    }
+
+    .service-content .right {
+        width: 60%;
+    }
+}
